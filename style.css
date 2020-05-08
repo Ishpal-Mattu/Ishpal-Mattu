@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    margin:0;
+    width: 100%;
+    background-color: #f0f1f4;
+}
+h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 27pt;
+    line-height: 1.5em;
+}
+h2{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    line-height: 1.5em;
+}
+h3{
+    font-family: Cambria, serif;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    line-height: 2em
+}
+nav{
+    border-bottom: solid 1.5px #d3d4d6;
+}
+nav ul {
+    Text-align: center;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0px;
+    background-color: #f0f1f4;
+    color: #899593;
+    font-family:'Quicksand', sans-serif;
+}
+
+nav ul div {
+    display: flex;
+    font-size: large;
+    width: 60%;
+    justify-content: space-evenly;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 15px 25px;
+}
+
+.Hero{
+    display: flex;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Hero h1{
+    color: #030303;
+
+}
+.Hero li{
+    line-height: 4em;
+    list-style: none;
+    color: #2c3632;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+}
+.Hero img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Hero picture{
+    height: 285px;
+}
+.Hero .Greeting{
+    background-color: #d3d4d6;
+    color: #2c3632;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    max-height: fit-content;
+    margin-top: 0;
+    
+}
+.Greeting div{
+    width: 60%;
+}
+.Greeting h2{
+    margin-bottom: 0.5em;
+}
+.my-work{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.my-work article{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+.my-work ul svg{
+    fill: #2c3632;
+}
+.my-work ul{
+    list-style: none;
+    display: flex;
+    width: inherit;
+    justify-content: space-around;
+    padding: 0 15%;
+}
+.my-work article a{
+    text-decoration: none;
+    font-family: inherit;
+    color: #899593;
+}
+.my-work article{
+    color: #2c3632;
+}
+
+footer{
+    background-color: #030303;
+    color: #f0f1f4;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+footer a{
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer .top-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .extra-footer{
+   display: flex;
+   justify-content: space-between;
+}
+footer .General-footer{
+    font-size: x-large;
+    color: #CCC5B9;
+}
+footer .Contact, .About{
+    margin-right: 50px;
+    line-height: 2;
+}
+.Contact h3, .About h3{
+    color: #CCC5B9;
+    
+}
+.About li, .Contact li{
+    color: #d3d4d6;
+}
+.extra-footer a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.extra-footer span{
+    font-weight: bolder;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: center;
+}
+.bottom-footer p{
+    line-height: 2;
+    margin: 20px;
+    color: #d3d4d6
+}
