@@ -84,9 +84,10 @@ nav li a {
 .Hero img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: inherit;
 }
 .Hero picture{
-    height: 285px;
+    height: 470px;
 }
 .Hero .Greeting{
     background-color: #d3d4d6;
