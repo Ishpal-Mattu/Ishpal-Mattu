@@ -132,6 +132,11 @@ main .proj-dark{
     height: 50%;
     color: #2c3632;
 }
+.proj1 article a{
+    text-decoration: none;
+    /*color: #73bcee;*/
+    color: #3598db;
+}
 
 .proj2{
     display: grid;
@@ -152,6 +157,10 @@ main .proj-dark{
 }
 .proj2 article{
     color: #CCC5B9;
+}
+.proj2 article a{
+    text-decoration: none;
+    color: #69c1cd;
 }
 
 .in-touch{
